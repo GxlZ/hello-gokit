@@ -3,9 +3,15 @@
 	"GoVersion": "go1.10",
 	"GodepVersion": "v80",
 	"Packages": [
+		"go.uber.org/dig",
 		"./..."
 	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.1.0-12-g8991bc2",
+			"Rev": "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+		},
 		{
 			"ImportPath": "github.com/go-kit/kit/endpoint",
 			"Comment": "v0.7.0-38-gde60aef",
@@ -81,8 +87,33 @@
 			"Rev": "816c9085562cd7ee03e7f8188a1cfd942858cded"
 		},
 		{
+			"ImportPath": "github.com/pmezard/go-difflib/difflib",
+			"Comment": "v1.0.0",
+			"Rev": "792786c7400a136282c1664665ae0a8db921c6c2"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/assert",
+			"Comment": "v1.2.2",
+			"Rev": "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/require",
+			"Comment": "v1.2.2",
+			"Rev": "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+		},
+		{
 			"ImportPath": "github.com/tuneinc/truss/deftree/googlethirdparty",
 			"Rev": "7dc4d5d85c38d1e393875bb52ec3130828f493ea"
+		},
+		{
+			"ImportPath": "go.uber.org/dig",
+			"Comment": "v1.3.0-18-g9b2360b",
+			"Rev": "9b2360b34259248adbcf16a1f61ec7750ff19d33"
+		},
+		{
+			"ImportPath": "go.uber.org/dig/internal/digreflect",
+			"Comment": "v1.3.0-18-g9b2360b",
+			"Rev": "9b2360b34259248adbcf16a1f61ec7750ff19d33"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",
