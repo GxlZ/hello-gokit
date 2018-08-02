@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package hello;
+
+import "github.com/tuneinc/truss/deftree/googlethirdparty/annotations.proto";
+
+service Hello {
+    rpc HelloV1 (Req) returns (Resp) {
+        option (google.api.http) = {
+          post: "get"
+        };
+    }
+}
+
+message Req {
+    int64 id = 1;
+}
+
+message Resp {
+    int32 code = 1;
+    string msg = 2;
+}
